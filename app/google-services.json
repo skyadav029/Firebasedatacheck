@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534839225609",
+    "project_id": "fir-datacheck-15408",
+    "storage_bucket": "fir-datacheck-15408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534839225609:android:35b3206ccb3e1c465b37d8",
+        "android_client_info": {
+          "package_name": "com.example.firebasedatacheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534839225609-2bbuht2if0ce7do1ljn5n5erp6pb5p6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_3xOFFdlqbFT9WhgnlEeRa73dLVjgFuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534839225609-2bbuht2if0ce7do1ljn5n5erp6pb5p6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

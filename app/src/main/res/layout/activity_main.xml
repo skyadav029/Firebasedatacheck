@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert user  details"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+         android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:id="@+id/edtemail"
+       android:layout_below="@+id/text"
+       android:hint="enter your email"
+       android:layout_marginTop="20dp"
+       android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtname"
+        android:layout_below="@+id/edtemail"
+        android:hint="enter your name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtage"
+        android:layout_below="@+id/edtname"
+        android:hint="enter your age"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/btninsert"
+             android:layout_below="@+id/edtage"
+             android:layout_marginTop="20dp"
+             android:text="insert data"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:layout_below="@+id/btninsert"
+        android:layout_marginTop="20dp"
+        android:text="View data"/>
+</RelativeLayout>
